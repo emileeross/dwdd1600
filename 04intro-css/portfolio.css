@@ -1,0 +1,77 @@
+body {
+    font-family: "Libre Caslon Text", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    margin: 0;
+}
+
+/* Header stuff here. */
+
+header {
+background-color: #f2e4d8;
+padding: 1rem 2vw;
+}
+
+header h1 {
+    margin: 0;
+    color: #61788c;
+}
+
+header p {
+    margin: 0;
+    color: #61788c;
+    letter-spacing: .5px;
+}
+
+/* Navigation section here*/
+
+nav {
+    background-color: #d9b5a0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0 2vw;
+    margin: 0;
+    display: flex;
+}
+
+nav a {
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: #61788c;
+    font-weight: 700;
+    display: block;
+    padding: .83rem 2rem;
+}
+
+/* this is not working! ask for help*/
+
+nav li.active a {
+    background-color: #61788c;
+    color: #f2e4d8;
+}
+
+nav a:hover {
+    color: white;
+}
+
+/* Main stuff here */
+
+main {
+    padding: 1rem 2vw;
+}
+
+main h1 { 
+    color: #61788c; 
+}
+
+main h2 {
+    color: #61788c;
+    margin-bottom: .2rem;
+}
+
+main p {
+    margin: 0 0 .3rem 0;
+}
