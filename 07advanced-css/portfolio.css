@@ -1,0 +1,232 @@
+* {box-sizing: border-box;}
+
+body {
+    font-family: "Libre Caslon Text", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    margin: 0;
+}
+
+/* Header stuff here. */
+
+header {
+background-color: #f2e4d8;
+padding: 1rem 2vw;
+display: flex;
+align-items: flex-end;
+}
+header div {
+    padding-left: 2vw;
+}
+header h1 {
+    margin: 0;
+    color: #61788c;
+}
+header p {
+    margin: 0;
+    color: #61788c;
+    letter-spacing: .5px;
+}
+
+/* Navigation section here*/
+ 
+/*SMALL SCREENS*/
+@media only screen and (max-width: 600px) {
+    nav ul {
+        margin: 0;
+        padding: 0 2vw;
+        list-style-type: none;
+    }
+
+    nav a {
+        display: block;
+        padding: .8rem;
+        text-decoration: none;
+        font-weight: 700;
+        text-transform: uppercase;
+        text-align: center;
+        border-bottom: solid 1px #d9b5a0;
+        color: #617883;
+    }
+
+    nav .active a {
+        background-color:#617883;
+        background-image: linear-gradient(#617883,#51656e);
+        color: #d9b5a0;
+    }
+} /* end of media quary */
+
+/*BIG SCREENS*/
+@media only screen and (min-width: 601px) {
+    
+    nav {
+    background-color: #d9b5a0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0 2vw;
+    margin: 0;
+    display: flex;
+}
+
+nav a {
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: #61788c;
+    font-weight: 700;
+    display: block;
+    padding: .83rem 2rem;
+}
+
+nav .active a {
+    background-color: #61788c;
+    color: #f2e4d8;
+}
+
+nav a:hover {
+    color: white;
+}
+} /* end of media quary */
+
+
+/* Main stuff here */
+
+main {
+    padding: 1rem 2vw;
+}
+
+main h1 { 
+    color: #61788c;
+    margin: 2vw; 
+}
+
+main h2 {
+    color: #61788c;
+    margin-bottom: .2rem;
+    margin: 2vw; 
+}
+
+main p {
+    margin: 0 0 .3rem 0;
+    margin: 2vw; 
+}
+
+main ol {
+    padding: .5rem 3vw;
+    background-color: white;
+    color: #bf8665;
+    display: block;
+    margin: 2vw; 
+}
+
+main dl dt {
+    color: #bf8665;
+    font-weight: 700;
+    margin: 2vw; 
+}
+
+main dl dd {
+    font-size: .9rem;
+    font-weight: 700;
+    display: block;
+    margin: 2vw; 
+}
+
+main dl dd a {
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    display: block;
+    margin: 2vw; 
+}
+
+main ul {
+    list-style-type: circle;
+    padding: .5rem 3vw;
+    margin: 2vw; 
+}
+
+main ul li{
+    line-height: 125%;
+    margin-bottom: .5rem;
+    font-size: .9rem;
+    padding: .5rem 3vw;
+    margin: 2vw; 
+}
+
+main address {
+    font-style: normal;
+    background-color: #f2e4d8;
+    padding: .5rem;
+    width: 12.5rem;
+    border-style: double;
+    border-color: black;
+    border-radius: .9rem;
+    margin: 2vw; 
+}
+
+main a {
+    color: #bf8665;
+    text-decoration: none;
+    margin: 2vw; 
+}
+
+main a:hover {
+    color: #61788c;
+    margin: 2vw; 
+}
+
+.familyhero {
+    width: 100%;
+    margin: 0;
+}
+
+.familyhero img {
+    width: 100%;
+    height: auto;
+}
+
+figure.wrapped {
+    width: 30%;
+    margin: 0 0 0 2%;
+    float: right;
+}
+
+figure.wrapped img {
+    width: 75%;
+    height: auto;
+}
+
+figure.wrapped figcaption {
+    text-align: center;
+    font-size: .75rem;
+}
+
+div.gallery {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.gallery figure {
+    margin: .5rem 2% 0 0;
+}
+
+div.gallery figcaption {
+    text-align: center;
+    font-size: .8rem;
+    color: #61788c;
+}
+
+div.gallery img:hover {
+    box-shadow: 0px 0px 10px #bf8665;
+}
+
+.myForm fieldset {
+    border: 3px solid #61788c;
+    border-radius: 2px;
+    margin-bottom: 1rem;
+}
+.myForm legend {
+   
